@@ -6,14 +6,50 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		981643542D58670D007A3A1B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 981643532D58670D007A3A1B /* README.md */; };
+		98F928182D589D1E0000EFBF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 98F928172D589D1E0000EFBF /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		981642DB2D55D356007A3A1B /* LocationMonitorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationMonitorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		981643532D58670D007A3A1B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		98F928172D589D1E0000EFBF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		981643492D56F144007A3A1B /* Exceptions for "LocationMonitorDemo" folder in "LocationMonitorDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 981642DA2D55D356007A3A1B /* LocationMonitorDemo */;
+		};
+		981643572D58671B007A3A1B /* Exceptions for "readmeAssets" folder in "LocationMonitorDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CLMonitorDemo.gif,
+				LocationNotificationTriggerDemo.gif,
+			);
+			target = 981642DA2D55D356007A3A1B /* LocationMonitorDemo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		981642DD2D55D356007A3A1B /* LocationMonitorDemo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				981643492D56F144007A3A1B /* Exceptions for "LocationMonitorDemo" folder in "LocationMonitorDemo" target */,
+			);
 			path = LocationMonitorDemo;
+			sourceTree = "<group>";
+		};
+		981643552D586710007A3A1B /* readmeAssets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				981643572D58671B007A3A1B /* Exceptions for "readmeAssets" folder in "LocationMonitorDemo" target */,
+			);
+			path = readmeAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +68,9 @@
 		981642D22D55D356007A3A1B = {
 			isa = PBXGroup;
 			children = (
+				98F928172D589D1E0000EFBF /* .gitignore */,
+				981643532D58670D007A3A1B /* README.md */,
+				981643552D586710007A3A1B /* readmeAssets */,
 				981642DD2D55D356007A3A1B /* LocationMonitorDemo */,
 				981642DC2D55D356007A3A1B /* Products */,
 			);
@@ -62,6 +101,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				981642DD2D55D356007A3A1B /* LocationMonitorDemo */,
+				981643552D586710007A3A1B /* readmeAssets */,
 			);
 			name = LocationMonitorDemo;
 			packageProductDependencies = (
@@ -109,6 +149,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98F928182D589D1E0000EFBF /* .gitignore in Resources */,
+				981643542D58670D007A3A1B /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +296,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LocationMonitorDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LocationMonitorDemo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "For CLMonitor approach";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "For UNNotification Trigger approach";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -282,6 +328,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LocationMonitorDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LocationMonitorDemo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "For CLMonitor approach";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "For UNNotification Trigger approach";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

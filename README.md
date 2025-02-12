@@ -28,4 +28,4 @@ Optional Set up
 
 
 ## Further Detail
-For more details, please refer to [SwiftUI: Monitor User Location Relative to a Region (Geofencing) 2 Ways]()
+For more details, please refer to [SwiftUI: Monitor User Location Relative to a Region (Geofencing) 2 Ways](https://medium.com/@itsuki.enjoy/swiftui-monitor-user-location-relative-to-a-region-geofencing-2-ways-534fa3ed0e8a)
